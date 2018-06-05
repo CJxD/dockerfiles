@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 myprefix="/opt"
-FFTW_VERSION="3.3.4"
+FFTW_VERSION="3.3.8"
 INSTALLDIR="$myprefix/fftw-${FFTW_VERSION}"
 TMP="${PWD}/tmp-fftw-${FFTW_VERSION}"
 LOGFILE="${TMP}/build.log"

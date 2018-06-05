@@ -2,7 +2,7 @@
 
 myprefix="/opt"
 PFFT_VERSION=1.0.8-alpha
-FFTW_VERSION=3.3.4
+FFTW_VERSION=3.3.8
 INSTDIR=$myprefix/pfft-$PFFT_VERSION
 FFTWDIR=$myprefix/fftw-$FFTW_VERSION
 TMP="${PWD}/tmp-pfft-$PFFT_VERSION"

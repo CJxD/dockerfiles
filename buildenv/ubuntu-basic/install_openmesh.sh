@@ -1,11 +1,11 @@
 #!/bin/sh -e
 
-OPENMESH_VERSION=6.3
+OPENMESH_VERSION=7.1
 TMP="/tmp/openmesh-$OPENMESH_VERSION"
 mkdir $TMP
 cd $TMP
 
-curl -L https://www.openmesh.org/media/Releases/6.3/OpenMesh-6.3.tar.bz2 | tar xj
+curl -L https://www.openmesh.org/media/Releases/$OPENMESH_VERSION/OpenMesh-$OPENMESH_VERSION.tar.bz2 | tar xj
 cd OpenMesh-$OPENMESH_VERSION
 mkdir build
 cd build

@@ -27,7 +27,7 @@ RUN apt-get update &&  apt-get install  -y \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* 
 
-ADD install*.sh /root/ 
+COPY install*.sh /root/ 
 
 RUN /root/install_ccache.sh 
 ENV CCACHE_DIR=/ccache
